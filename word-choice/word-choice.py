@@ -11,7 +11,7 @@ $ python word-choice.py -r emr \
 s3://selik.org.emr/ngrams/1grams/googlebooks-eng-all-1gram-20120701-x.gz
 
 I uploaded the a, q, and x files to s3://selik.org.emr/ngrams/1grams/
-Please use the default (us-east-1) Amazon cloud location. Otherwise we might incur data transfer charges.
+Please use the default (US Standard / us-east-1) Amazon cloud location. Otherwise we might incur data transfer charges.
 
 For example
 
