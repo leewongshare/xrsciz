@@ -8,7 +8,12 @@ Calculated with Google Ngram Dataset hosted on Amazon S3.
 $ python word-choice.py -r emr \
 -o s3://selik.org.emr/word-prob-x \
 --no-output \
-s3://selik.org.emr/googlebooks-eng-all-1gram-20120701-x.gz
+s3://selik.org.emr/ngrams/1grams/googlebooks-eng-all-1gram-20120701-x.gz
+
+I uploaded the a, q, and x files to s3://selik.org.emr/ngrams/1grams/
+Please use the default (us-east-1) Amazon cloud location. Otherwise we might incur data transfer charges.
+
+For example
 
 http://storage.googleapis.com/books/ngrams/books/datasetsv2.html
 http://aws.amazon.com/datasets/8172056142375670
